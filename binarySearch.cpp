@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; //masarap aq
 
 // An iterative binary search function
 int binarySearch(int arr[], int low, int high, int x)
