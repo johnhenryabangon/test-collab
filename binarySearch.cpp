@@ -34,3 +34,5 @@ int main(void)
 // = 7
 
 //fn = 0(log 6) + 1 + 7 = 0(log 6)+8 ==> 0(log n)
+
+//edit kau pls
