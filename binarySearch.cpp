@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std; //masarap aq
-
+// pinaka masarap na nilalang si Brylle
 // An iterative binary search function
 int binarySearch(int arr[], int low, int high, int x)
 {
