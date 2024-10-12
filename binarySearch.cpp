@@ -2,7 +2,7 @@
 using namespace std; //masarap aq
 // pinaka masarap na nilalang si Brylle
 // An iterative binary search function
-int binarySearch(int arr[], int low, int high, int x)
+int binarySearch(int arr[], int low, int high, int x) //edit ni cheenee
 {
     while (low <= high) { //0(log n) * 6 = 0(log 6n)
         int mid = low + (high - low) / 2; //0(1)
