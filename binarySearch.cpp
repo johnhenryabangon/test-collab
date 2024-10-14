@@ -37,3 +37,30 @@ int main(void)
 //fn = 0(log 6) + 1 + 7 = 0(log 6)+8 ==> 0(log n)
 
 //edit kau pls
+
+private: System::Void btnEnter_Click(System::Object^ sender, System::EventArgs^ e) {
+	if ((txtEnterPin->Text == "1111") || (txtEnterPin->Text == "2222") || (txtEnterPin->Text == "3333") || (txtEnterPin->Text == "7777") || (txtEnterPin->Text == "4444"))
+{
+		pinNum = int::Parse(txtEnterPin->Text);
+	btnWithdraw->Enabled = true;
+	btnDeposit->Enabled = true;
+	txtEnterPin->Visible = false();
+	rtDisplay->AppendText("\t\t Welcome to Power Bank\n\n");
+	rtDisplay->AppendText("Withdraw" + "\t\t\t\t\t" + "  Deposit" + "\n\n");
+
+
+}
+	else
+	{
+		txtEnterPin->Text = "Invalid Pin Number!";
+		txtEnterPin->Focus();
+		btnWithdraw->Enabled = false();
+		btnDeposit->Enabled = false();
+	}
+
+	if ((txtEnterPin->Text !="" rtDisplay->Text != ""))
+}
+private: System::Void ATM_Load(System::Object^ sender, System::EventArgs^ e) {
+	EnableButton();
+}
+};
